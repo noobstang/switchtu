@@ -1,0 +1,28 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+id: 300173743
+dh: noobstang
+
+For loops:
+
+utilizes range() function to generate iterating sequence.
+    for i in range(0, 5):
+        # iterates the loop body 5 times, each time i increases 0 -> 1 -> 2 -> 3 -> 4
+        # range() is not inclusive of the second integer itself.
+    s = "Hello world"
+    for i in range(len(s)):
+        # iterates the loop by the length of string s, 11 in this case
+
+While loops:
+
+utilizes boolean condition to determine iteration
+    # iterate by number of slices. The function body sets the iteration condition.
+    # while loops have the danger of infinite looping if the condition is not set correctly.
+    pizza = True
+    slices = 8
+    while pizza = True:
+        slices = slices - 1
+        if slices ==0:
+            pizza = False
+    
+

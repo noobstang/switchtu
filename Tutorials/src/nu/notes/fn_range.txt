@@ -1,0 +1,27 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+id: 300173743
+dh: noobstang
+
+
+
+    The function range() is used to iterate over a sequence of numbers in a
+      specified range
+
+    Iterate over n numbers 0, 1, 2, ... , n-1
+      for i in range(n):
+
+    Iterate over n numbers k, k+1, k+2, ... , n-1
+      for i in range(k, n):
+
+    Iterate over n numbers k, k+c, k+2c, k+3c, ... , n-1
+      for i in range(k, n, c):
+
+In particular the first time a program encounters a for-
+loop it creates the variable whose name follows the keyword for. 
+
+In the above examples, the variable name is i. 
+Then that variable, i in this case, takes values in the given range one by one. 
+Each time it takes the next value it enters the for-loop and executes its body. 
+The for-loop terminates after i has taken on all the values in the range, as shown above
+

@@ -1,0 +1,71 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+id: 300173743
+dh: noobstang
+
+Basic number-type (algebraic) operators:
+
+
+>>    divide: 10 / 2 # Our dividing syntax
+
+>>    multiply: 10 * 2 # Our multiplying syntax
+
+>>    toPowerOf: 10 ** 2 # Our toPowerOf syntax (10^2)
+
+>>    addition: 10 + 2 # Our add syntax
+
+>>    subtraction: 10 - 2 # Our subtract syntax
+
+>>    negative: -(x)  # negative value
+
+>>    absolute value:  abs(x)  # absolute (positive) value
+
+>>    integer division: 10 // 3 # will return an integer <= the real answer (leaving the remainder)
+
+>>    remainder: 10 % 3  # return the remainder from integer division
+
+        abs(-3) >>> 3
+        min(2, 1, 3, 4) >>> 4
+        max(-2, 4, 8, 100) >>> 100
+
+
+Boolean (comparison) operators:
+    Return 'bool' values True or False based on operands
+      boolean often use comparison operators including:
+      
+      < , > , == , != , <= , >=
+    
+
+
+    In an expression consisting of both algebraic and comparison operators,
+      algebraic operators are evaluated before comparison operators.
+
+
+Operator Precedence (top to bottom, top performed first):
+
+>>    [expressions...]  # list definition
+
+>>    x[] , x[index:index:index]  # indexing operator
+
+>>    **  # Exponentiation
+
+>>    +x , -x  # Positive, negative signs
+
+>>    * , / , // , %  # Product, division, integer division, remainder
+
+>>    + , -  # Addition, subtraction
+
+>>    in , not in , < , <= , > , >= , <> , != , ==   # Comparison operands, including membership and identity tests
+
+>>    not x  # Boolean NOT
+
+>>    and   # Boolean AND
+
+>>    or   # Boolean OR
+    
+
+
+
+
+
+

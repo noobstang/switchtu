@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="01_hello_world" projectFiles="true">
+        <itemPath>hworld.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="02_variable" projectFiles="true">
+        <itemPath>shortstory.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="03_primitive_type" projectFiles="true">
+        <itemPath>primitivetype.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="04_printf_test" projectFiles="true">
+        <itemPath>printf_test.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="05_numbers" projectFiles="true">
+        <itemPath>number_fn.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="06_comments" projectFiles="true">
+        <itemPath>comments.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="07_constants" projectFiles="true">
+        <itemPath>constants.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="08_input" projectFiles="true">
+        <itemPath>input.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f9" displayName="09_calculator" projectFiles="true">
+        <itemPath>calculator.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f10" displayName="10_mad_libs" projectFiles="true">
+        <itemPath>mad_libs.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f11" displayName="11_arrays_test" projectFiles="true">
+        <itemPath>arrays_test.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f12" displayName="12_functions" projectFiles="true">
+        <itemPath>functions.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f13" displayName="13_functions_return" projectFiles="true">
+        <itemPath>functions_return.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f14" displayName="14_if_statement" projectFiles="true">
+        <itemPath>if_statement.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f15"
+                     displayName="15_better_calculator"
+                     projectFiles="true">
+        <itemPath>better_calculator.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f16" displayName="16_switch_statement" projectFiles="true">
+        <itemPath>switch_statement.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f17" displayName="17_structs" projectFiles="true">
+        <itemPath>structs.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f18" displayName="18_while_loop" projectFiles="true">
+        <itemPath>while_loop.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f19" displayName="19_guessing_game" projectFiles="true">
+        <itemPath>guessing_game.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f20" displayName="20_for_loop" projectFiles="true">
+        <itemPath>for_loop.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f21" displayName="21_2darray_nested" projectFiles="true">
+        <itemPath>2darray_nested.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f22" displayName="22_memory_address" projectFiles="true">
+        <itemPath>memory_address.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f23" displayName="23_pointers" projectFiles="true">
+        <itemPath>pointers.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f24" displayName="24_pointer_deref" projectFiles="true">
+        <itemPath>pointer_deref.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f25" displayName="25_write" projectFiles="true">
+        <itemPath>write.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f26" displayName="26_read" projectFiles="true">
+        <itemPath>read.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>2</standard>
+        </cTool>
+      </compileType>
+      <item path="2darray_nested.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arrays_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="better_calculator.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="calculator.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="comments.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="constants.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="for_loop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="functions.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="functions_return.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="guessing_game.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hworld.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="if_statement.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="input.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="mad_libs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memory_address.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="number_fn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pointer_deref.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pointers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="primitivetype.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="printf_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="read.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shortstory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="structs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="switch_statement.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="while_loop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="write.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>2</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="2darray_nested.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arrays_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="better_calculator.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="calculator.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="comments.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="constants.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="for_loop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="functions.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="functions_return.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="guessing_game.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hworld.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="if_statement.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="input.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="mad_libs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memory_address.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="number_fn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pointer_deref.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pointers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="primitivetype.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="printf_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="read.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shortstory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="structs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="switch_statement.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="while_loop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="write.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

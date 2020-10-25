@@ -1,0 +1,28 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+id: 300173743
+dh: noobstang
+
+Key: functions
+    
+    abs() , min() , and max() are called functions.
+    In Python, functions are similar to those in Java, where they can be called to perform
+    certain tasks and/or return values from certain operations.
+
+    From https://runestone.academy/runestone/books/published/thinkcspy/Functions/Functionsthatreturnvalues.html
+    Functions that Return Values
+
+    "Functions that return values are sometimes called fruitful functions. In many other languages, a chunk that doesn’t return a value is called a procedure, 
+    but we will stick here with the Python way of also calling it a function, or if we want to stress it, a non-fruitful function.
+
+    Fruitful functions still allow the user to provide information (arguments). However there is now an additional piece of data that is returned from the function."
+    
+    A custom function must be defined with keyword 'def', followed by function name and colon,
+    with the desired code written with an indent level.
+    
+    ex:
+    def hello_world(n):
+        print("hello world")
+        return n
+
+

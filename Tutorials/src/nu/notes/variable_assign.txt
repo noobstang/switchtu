@@ -1,0 +1,20 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+id: 300173743
+dh: noobstang
+
+
+Key: Variables and assignments
+    a variable, such as x (any alphanumerical name) , can be assigned a value
+    when the variable appears inside an expression, it evaluates to its assigned value
+
+    a variable (name) does not exist until it is assigned
+
+    The assignment statement has the format:
+        <variable> = <expression>
+
+    <expression> is evaluated first before being assigned to variable <variable>
+
+    In Python, variable names consist of upper/lower case letters, numbers, and underscores. Cannot begin with a digit.
+      For multi-word names, use underscore spaces or camelCase capitalization.
+    "Short and meaningful names are ideal".

@@ -1,0 +1,31 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+id: 300173743
+dh: noobstang
+
+From ITI1120 - Lab 04:  Indexing operator, revisited
+
+    "The indexing operator returns the character at index i (as a single character string)."
+
+s[i:j]  # the slice of s starting at index i and ending before index j
+s[i:]   # the slice of s starting at index i
+s[:j]   # the slice of s ending before index j
+s[::k]  # slice picking character for every 'k' index
+    ex. 'Sillygoose'[::2] == 'Slyos'
+
+
+       0  1  2  3  4
+
+s =  ' A  p  p  l  e '       # there are no blank spaces in the string. Visibility purposes.
+
+      -5 -4 -3 -2 -1
+
+s[0:2]   # 'Ap'
+s[1:4]   # 'ppl'
+s[2:5]   # 'ple'
+s[2:]    # 'ple'
+s[:2]    # 'Ap'
+s[-3:-1] # 'pl'
+
+
+
