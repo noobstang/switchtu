@@ -7,16 +7,19 @@ From ITI1120 - Lab 04:  String methods
 
     Strings are immutable; none of the string methods modify string s
 
-    s.capitalize() # returns s with first character capitalized. Ignore if first character is not a letter.
-    s.count(target) # returns number of occurrences of sub-string target in s
-    s.find(target) # returns index of first occurrence of target in s
-    s.lower() # returns lowercase copy of s
-    s.upper() # returns uppercase copy of s
+    s.capitalize()   # returns s with first character capitalized. Ignore if first character is not a letter.
+    s.count(target)  # returns number of occurrences of sub-string target in s
+    s.find(target)   # returns index of first occurrence of target in s
+    s.lower()  # returns lowercase copy of s
+    s.upper()  # returns uppercase copy of s
     s.replace(old , new) # returns s with every occurrence of old replaced with new
-    s.split(sep) # returns list of substrings of s , delimited by sep
+    s.split(sep)  # returns list of substrings of s , delimited by sep
         ex: 'I am good'.split(' ') >>> ['I' , 'am' , 'good']
-    s.strip() # returns copy of s without leading and trailing whitespace
-    s.isnumeric() # returns True if s contains only numerical characters 0-9; False otherwise
-
-
+    s.strip()     # returns copy of s without leading and trailing whitespace
+    s.isnumeric()  # returns True if s contains only numerical characters (including characters from languages)
+    s.isdigit()    # returns True of s contains only numerical digits 0-9
+    s.isdecimal()  # returns True if s contains number that is represented in decimal form (no frac, expon, sci-notation)
+        see difference at: https://lerner.co.il/2019/02/17/pythons-str-isdigit-vs-str-isnumeric/
+    
+    
 
