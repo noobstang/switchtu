@@ -6,7 +6,18 @@ dh: noobstang
 From ITI1120 - Lab 04:  String methods
 
     Strings are immutable; none of the string methods modify string s
+# OPERATORS
+    x in s          # returns bool if x is a substring of s
+    x not in s      # returns boool if x is not a substring of s
+    s + t           # returns concatenation of s and t
+    s * n, n * s    # returns concatenation of n copies of s
+    s[i]            # returns the character at index i in s (strings are lists)
 
+# FUNCTIONS
+    len(s)          # returns the length of string s
+
+
+# METHODS
     s.capitalize()   # returns s with first character capitalized. Ignore if first character is not a letter.
     s.count(target)  # returns number of occurrences of sub-string target in s
     s.find(target)   # returns index of first occurrence of target in s

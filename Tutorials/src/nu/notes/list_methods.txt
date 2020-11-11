@@ -1,0 +1,35 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+id: 300173743
+dh: noobstang
+
+From ITI 1120 Lab 07: List Methods
+
+The list in Python (3) is a type of container that serves as an array that can
+  store multiple objects such as values and other lists.
+
+Like strings, lists can be manipulated with operators and functions.
+    
+# OPERATIONS
+    x in lst        # returns bool T/F if element x is found in list
+    x not in lst    # returns bool T/F if element x is not in list 
+    lst + lstB      # Concatenation of lst and lstB
+    lst*n, n*lst    # Concatenation of n copies of lst
+
+# FUNCTIONS
+    lst[i]          # returns item at index i of lst (indexing starts at 0)
+    len(lst)        # returns int: number of items in lst
+    min(lst)        # returns minimum value found in lst
+    max(lst)        # returns maximum value found in lst
+    sum(lst)        # returns sum of all values in lst
+
+# METHODS
+    lst.append(item)    # adds item to the end of lst
+    lst.count(item)     # returns the number of occurrences of item in lst
+    lst.index(item)     # returns index of (first occurrence of) item in lst
+    lst.pop()           # removes and returns the last item in lst
+    lst.remove(item)    # removes (the first occurence of) item from lst
+    lst.reverse()       # reverses the order of items in lst
+    lst.sort()          # sorts the items of lst in increasing order
+
+
