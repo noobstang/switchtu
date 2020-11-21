@@ -18,3 +18,27 @@ Key: Variables and assignments
     In Python, variable names consist of upper/lower case letters, numbers, and underscores. Cannot begin with a digit.
       For multi-word names, use underscore spaces or camelCase capitalization.
     "Short and meaningful names are ideal".
+
+# PROPERTIES
+    Assigning a variable name to an existing object only creates a new tag for
+        it. For mutable objects, it doesn't create a new copy of the object,
+        but just associates it with an extra name.
+        Immutable objects like strings do not suffer from such a problem. When
+        a name is assigned to a string, a new string is created from the old one
+    
+    Be aware that when you make a variable assignment to an existing list,
+    it just adds that tag to the existing one. No new list is created! Therefore
+    if you use a method on the new variable, the original list is changed!
+    example:
+        original = [3,2,1,4,5]
+        new_list = original
+        new_list.sort()
+        print(new_list)
+    >>> [1,2,3,4,5]
+        print(original)
+    >>> [1,2,3,4,5]  # even though no method was applied to the name 'original'
+    
+    To create an independent list that is a copy of the original, use:
+        new_list = original[ : ]  # loops through the indices to create a copy
+
+

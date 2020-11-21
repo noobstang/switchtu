@@ -24,12 +24,16 @@ Like strings, lists can be manipulated with operators and functions.
     sum(lst)        # returns sum of all values in lst
 
 # METHODS
-    lst.append(item)    # adds item to the end of lst
-    lst.count(item)     # returns the number of occurrences of item in lst
-    lst.index(item)     # returns index of (first occurrence of) item in lst
+    lst.append(obj)     # adds item to the end of lst
+    lst.count(obj)      # returns the number of occurrences of item in lst
+    lst.del(int)        # removes item from lst at the specified index
+    lst.extend(list)    
+    lst.index(obj)      # returns index of (first occurrence of) item in lst
+    lst.insert(int,obj) # appends item at the specified index of lst
     lst.pop()           # removes and returns the last item in lst
-    lst.remove(item)    # removes (the first occurence of) item from lst
+    lst.remove(obj)     # removes (the first occurence of) item from lst
     lst.reverse()       # reverses the order of items in lst
     lst.sort()          # sorts the items of lst in increasing order
+       .sort(reverse = True) # sorts the items of lst in reversed order
 
 

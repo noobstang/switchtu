@@ -1,0 +1,37 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+dh: noobstang
+
+Python (3) Collection type: Dictionary
+   
+    from "Hello World - Second Edition" by Wayne Sande and Carter Sande:
+  " 
+    A python dictionary is a type of collection used to associate objects to 
+    each other. These two things are called the key and value. Each item or 
+    entry in a dictionary has a key and a value, referred to as key-value pairs.
+  " 
+    
+    Dictionaries are syntaxed with curly brackets { }
+    Within them are key-value pairs separated by a colon : and a comma
+    between every key-value pair
+    
+    They could be formatted to look like json:
+    {
+      # format:
+      # <key>:<value>
+        "Bob": "444-4321"
+        "Jenny": "867-5309"
+        "John": "555-1234"
+        "Mary": "555-6789"
+    }
+    
+    The key value can only be immutable types (bool, int, str, float, tuple)
+    
+    A dictionary cannot be sorted, as it has no concept of sorting.
+    To add to a dictionary, simply equate a key value enclosed in square brckts
+    after a dictionary:
+        phoneNumbers = {}
+        phoneNumbers["Mary"] = "555-6789"
+    
+    
+

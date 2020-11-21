@@ -1,0 +1,41 @@
+Python Learning Notes: (plain text format)
+by: David Yin
+dh: noobstang
+
+Data structures and Collections in Python (3):
+
+definitions:
+mutable/immutable:  whether the collection can be changed after creation
+sorted/unsorted:    whether the collection is automatically sorted in order
+ordered/unordered:  whether the collection elements are accessible through index
+
+    lists - mutable, unsorted, ordered, allows duplicates
+        multiple objects surrounded by square brackets [] Ex:
+            [1, 4, 6]
+            ["hello", "world", "no u"]
+            [[1,4,6], ["hello", "world", "no u"]]
+
+    tuples - immutable, unsorted, ordered, allows duplicates
+        surrounded by round brackets () Ex:
+            (1, 4, 6)
+            ("hello", "world", "no u")
+            ([1,4,6], ["hello", "world", "no u"])
+
+    dictionaries - mutable, (unsorted,) unordered, no duplicates
+          # dictionaries store key:value pairs 
+              # - a.k.a. associative arrays, hash tables, etc.
+          # access elements with key value
+        surrounded by curly brackets {}
+            {
+              # format:
+              # <key>:<value>
+                "Bob": "444-4321"
+                "Jenny": "867-5309"
+                "John": "555-1234"
+                "Mary": "555-6789"
+            }
+
+# METHODS:
+    
+
+
